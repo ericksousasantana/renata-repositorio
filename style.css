@@ -27,12 +27,14 @@ section{
 
 .perfil{
     position: absolute;
-    top: 5%;
+    top: 10%;
 }
 .perfil img{   
-    width: 60%;
+    width: 65%;
+    min-width: 70px;
+    max-width: 100%;
     border-radius: 50%;
-    border: 8px solid var(--cor04);
+    border: 5px solid var(--cor04);
 }
 
 
@@ -45,8 +47,9 @@ nav{
 }
 nav a, nav img{
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 60%;
+    width: 60%;
+    min-width: 40px;
     text-decoration: none;
     border-radius: 30%;
     margin: 20px auto;
