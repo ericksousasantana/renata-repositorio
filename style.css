@@ -6,55 +6,52 @@
 }
 
 :root{
-    --cor01: #C59972;
-    --cor02: #88955E;
-    --cor03: #D0AB8A;
-    --cor04: #89A9BA;
+    --cor01: #746C70;
+    --cor02: #E2DED0;
+    --cor03: #4E4F50;
+    --cor04: #647C90;
+    --cor04l: #c1d0db;
 }
 
-html, body{
-    height: 100dvh;
-    width: 100dvw;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-section{
+header{
     background-color: var(--cor01);
-    height: 100dvh;
-    width: 20dvw;
-    position: fixed;
     text-align: center;
+    padding: 10px;
+    margin-bottom: 2px;
 }
-
-.perfil{
-    position: absolute;
-    top: 10%;
+.htitulo{
+    display: inline-block;
+    color: white;
 }
-.perfil img{   
-    width: 65%;
-    min-width: 70px;
-    max-width: 100%;
+.himg{
+    display: inline-block;
+    margin: 10px;
+}
+.himg img{
     border-radius: 50%;
-    border: 5px solid var(--cor04);
+    width: 125px;
+    border: 5px solid var(--cor02);
 }
 
+main{
+    background-color: var(--cor04l);
+    max-width: 1300px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 40px;
+}
 
-nav{
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -20%);
+main h1{
+    color: var(--cor04);
+    margin: 20px;
+    font-size: 3em;
 }
-nav a, nav img{
-    display: block;
-    height: 60%;
-    width: 60%;
-    min-width: 40px;
-    text-decoration: none;
-    border-radius: 30%;
-    margin: 20px auto;
-    opacity: .8;
-}
-nav a:hover, nav img:hover{
-    opacity: 1;
+
+main p{
+    font-size: 1.4em;
 }
