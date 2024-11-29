@@ -38,7 +38,7 @@ header{
 }
 
 main{
-    background-color: var(--cor04l);
+    background-color: rgb(239, 239, 233);
     max-width: 1300px;
     min-width: 300px;
     margin: auto;
@@ -48,17 +48,20 @@ main{
 
 main h1{
     color: var(--cor04);
-    margin: 20px;
-    font-size: 4vw;
+    margin: 20px 10px;
+    font-size: 4em;
 }
 
 main p{
-    font-size: 2vw;
+    font-size: 1.4em;
 }
 
 .formacao{
     text-align: center;
     background-color: var(--cor02);
+    max-width: 300px;
+    border-radius: 0px 30px 30px 0px;
+    padding: 10px;
 }
 .formacao div{
     display: inline-block;
@@ -67,6 +70,7 @@ main p{
 .formacao img{
     border-radius: 50%;
     opacity: .7;
+    max-width: 80px;
 }
 .formacao img:hover{
     opacity: 1;
