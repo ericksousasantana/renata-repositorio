@@ -6,25 +6,25 @@
 }
 
 :root{
-    --cor01: #746C70;
-    --cor02: #E2DED0;
-    --cor03: #4E4F50;
-    --cor04: #647C90;
-    --cor04l: #c1d0db;
+    --cor01: #4F606B;
+    --cor02: #8C9FAC;
+    --cor03: #564A38;
+    --cor04: #332510;
+    --cor04l: #332510;
+    --cor05: #192933;
+    --cor06: #AB9D8A;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-abbr{
-    text-decoration: none;
-}
 header{
     background-color: var(--cor01);
     text-align: center;
     padding: 10px;
     margin-bottom: 2px;
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.367);
 }
 .htitulo{
     display: inline-block;
@@ -39,10 +39,11 @@ header{
     width: 125px;
     border: 5px solid var(--cor02);
 }
-
+.hp{
+    font-size: small;
+}
 main{
-    background-color: rgb(239, 239, 233);
-    max-width: 1300px;
+    max-width: 1100px;
     min-width: 300px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
@@ -50,23 +51,26 @@ main{
 }
 
 main h1{
-    color: var(--cor04);
+    color: var(--cor03);
     margin: 20px 10px;
     font-size: 4em;
 }
 
 main p{
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .formacao{
     text-align: center;
-    background-color: var(--cor02);
+    background-color: var(--cor03);
     max-width: 500px;
     border-radius: 0px 30px 30px 0px;
     padding: 10px;
     margin: 40px 0px 40px 0px;
-    border: 2px solid var(--cor04);
+    border: 2px solid var(--cor04l);
+}
+.formacao h2{
+    color: white;
 }
 .formacao div{
     display: inline-block;
@@ -74,50 +78,28 @@ main p{
 }
 .formacao img{
     border-radius: 50%;
-    opacity: .7;
+    opacity: 1;
     max-width: 90px;
 }
 .formacao img:hover{
-    opacity: 1;
+    opacity: .8;
 }
 
 .competencias{
-    background-color: var(--cor03);
-    padding: 20px;
-    text-align: center;
+    padding: 40px 0px 20px 20px;
 }
 .competencias h2{
-    margin: 10px;
-    font-size: 2em;
-    color: white;
+    font-size: 3em;
+    margin: 10px 0px 20px 20px;
+    background-image: linear-gradient(to right, var(--cor06) , white);
+    padding-left: 10px;
+    color: var(--cor04);
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
 }
-
-.competencias div{
-    background-color: white;
-    min-width: 80px;
-    min-height: 110px;
-    margin: 30px;
-    display: inline-block;
-    box-sizing: border-box;
+.competencias li{
+    margin: 20px 10%;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: var(--cor05);
 }
-
-.competencias div:hover{
-    border: 10px solid var(--cor04);
-    transition: .2s;
-}
-
-
-/*
-
-#comp{
-    border-radius: 20px;
-    background-color: var(--cor04);
-    padding: 50px;
-    max-width: 600px;
-    margin: auto;
-    text-align: start;
-}
-#comp ul{
-    list-style: none;
-}
-*/
