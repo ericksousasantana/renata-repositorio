@@ -25,6 +25,7 @@ header{
     text-align: center;
     padding: 10px;
     margin-bottom: 2px;
+    width: 100dvw;
 }
 .htitulo{
     display: inline-block;
@@ -63,7 +64,6 @@ main p{
     text-align: center;
     background-color: var(--cor02);
     max-width: 500px;
-    max-height: 200px;
     border-radius: 0px 30px 30px 0px;
     padding: 10px;
     margin: 40px 0px 40px 0px;
@@ -95,8 +95,8 @@ main p{
 
 .competencias div{
     background-color: white;
-    width: 80px;
-    height: 110px;
+    min-width: 80px;
+    min-height: 110px;
     margin: 30px;
     display: inline-block;
     box-sizing: border-box;
@@ -104,7 +104,7 @@ main p{
 
 .competencias div:hover{
     border: 10px solid var(--cor04);
-
+    transition: .2s;
 }
 
 
