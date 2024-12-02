@@ -19,6 +19,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.titulobg{
+    font-size: 3em;
+    margin: 10px 0px 20px 20px;
+    background-image: linear-gradient(to right, var(--cor06) , white);
+    padding-left: 10px;
+    color: var(--cor04);
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
 header{
     background-color: var(--cor01);
     text-align: center;
@@ -63,7 +73,7 @@ main p{
 .formacao{
     text-align: center;
     background-color: var(--cor03);
-    max-width: 500px;
+    max-width: 700px;
     border-radius: 0px 30px 30px 0px;
     padding: 10px;
     margin: 40px 0px 40px 0px;
@@ -88,18 +98,31 @@ main p{
 .competencias{
     padding: 40px 0px 20px 20px;
 }
-.competencias h2{
-    font-size: 3em;
-    margin: 10px 0px 20px 20px;
-    background-image: linear-gradient(to right, var(--cor06) , white);
-    padding-left: 10px;
-    color: var(--cor04);
-    border-radius: 10px 0px 0px 10px;
-    padding: 5px;
-}
 .competencias li{
     margin: 20px 10%;
     font-size: 1.4em;
     font-weight: bolder;
     color: var(--cor05);
+}
+
+.experiencia{
+    background-color: var(--cor05);
+    text-align: center;
+}
+.experiencia h2{
+    font-size: 3em;
+    color: white;
+    margin: 20px;
+}
+.oikos{
+    opacity: 0.5;
+    text-align: start;
+    width: 100dvw;
+    height: 400px;
+    background: url("imagens/oikos-bg.webp") top center no-repeat fixed;
+    background-size: cover;
+}
+#oikosimg{
+    max-width: 300px;
+    opacity: 1;
 }
