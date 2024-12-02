@@ -119,7 +119,7 @@ main p{
 
 .oikos {
     position: relative; 
-    height: 400px;
+    height: 300px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -127,18 +127,68 @@ main p{
 }
 .oikos::before {    
       content: "";
-      background-image: url('imagens/oikos-bg.webp');
-      background-attachment: fixed;
+      background: url('imagens/oikos-bg.webp') top center fixed no-repeat;
       background-size: cover;
-      background-repeat: no-repeat;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.45;
+      opacity: 0.3;
 }
 .oikos img {
+  position: relative;
+  color: #ffffff;
+  max-width: 400px;  
+}
+
+.robert {
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.robert::before {    
+      content: "";
+      background: url('imagens/robert-bg.webp') top center fixed no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+.robert img {
+  position: relative;
+  color: #ffffff;
+  max-width: 400px;  
+}
+
+.deloitte {
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.deloitte::before {    
+      content: "";
+      background: url('imagens/deloitte-bg.webp') top center fixed no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+.deloitte img {
   position: relative;
   color: #ffffff;
   max-width: 400px;  
