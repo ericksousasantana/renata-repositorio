@@ -108,21 +108,35 @@ main p{
 .experiencia{
     background-color: var(--cor05);
     text-align: center;
+    padding-top: 1px;
 }
 .experiencia h2{
     font-size: 3em;
     color: white;
-    margin: 20px;
+    margin: 10px;
 }
-.oikos{
-    opacity: 0.5;
-    text-align: start;
-    width: 100dvw;
+
+.oikos {
+    position: relative; 
     height: 400px;
-    background: url("imagens/oikos-bg.webp") top center no-repeat fixed;
-    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#oikosimg{
-    max-width: 300px;
-    opacity: 1;
+.oikos::before {    
+      content: "";
+      background-image: url('imagens/oikos-bg.webp');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.45;
+}
+.oikos img {
+  position: relative;
+  color: #ffffff;
+  max-width: 400px;  
 }
