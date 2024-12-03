@@ -12,6 +12,7 @@
     --cor04: #332510;
     --cor04l: #332510;
     --cor05: #192933;
+    --cor05d: #090f12;
     --cor06: #AB9D8A;
 }
 
@@ -196,16 +197,17 @@ main p{
 }
 
 footer{
+    padding: 10px;
     display: flex;
-    background-color: var(--cor04);
+    background-color: var(--cor05d);
     height: auto;
     max-width: 100dvw;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     flex-wrap: wrap;
+    align-content: start;
 }
 .social{
-    background-color: firebrick;
     width: 200px;
     text-align: center;
 }
@@ -214,11 +216,13 @@ footer{
     border-radius: 25%;
     margin: 5px;
 }
+.social img:hover{
+    opacity: .5;
+}
 .social ul{
     list-style: none;
 }
 .contato{
-    background-color: blue;
     width: 200px;
     min-height: 100px;
     text-align: center;
