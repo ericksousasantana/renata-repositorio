@@ -202,10 +202,9 @@ footer{
     background-color: var(--cor05d);
     height: auto;
     max-width: 100dvw;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
     flex-wrap: wrap;
-    align-content: start;
 }
 .social{
     width: 200px;
@@ -223,7 +222,7 @@ footer{
     list-style: none;
 }
 .contato{
-    width: 200px;
+    max-width: auto;
     min-height: 100px;
     text-align: center;
 }
