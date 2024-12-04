@@ -209,6 +209,7 @@ footer{
 .social{
     width: 200px;
     text-align: center;
+    margin: 10px;
 }
 .social img{
     width: 50px;
